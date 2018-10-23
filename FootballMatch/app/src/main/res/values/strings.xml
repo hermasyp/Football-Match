@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">English Premier League</string>
+    <string name="title_next_match">Next Match</string>
+    <string name="title_last_match">Last Match</string>
+    <string name="title_favorite">Favorite Match</string>
+    <string name="favorites">Favorites</string>
+
+    <array name="pb_color">
+        <item>@color/colorAccent</item>
+        <item>@color/colorAccent</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+    </array>
+    <!-- item_match.xml-->
+    <string name="string_vs">VS</string>
+    <string name="string_date">Date</string>
+    <string name="string_team">Team</string>
+    <string-array name="array_example">
+        <item>Trust</item>
+        <item>Grade</item>
+        <item>Location</item>
+        <item>Contract Type</item>
+        <item>Speciality</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
