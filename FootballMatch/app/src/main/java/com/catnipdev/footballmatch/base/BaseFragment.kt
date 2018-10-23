@@ -1,4 +1,4 @@
-package com.hermasyp.quickmovie.base
+package com.catnipdev.footballmatch.base
 
 import android.support.v4.app.Fragment
 import android.view.View

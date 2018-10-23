@@ -1,11 +1,11 @@
 package com.catnipdev.footballmatch.ui.detail
 
+import com.catnipdev.footballmatch.base.BaseView
 import com.catnipdev.footballmatch.data.model.Event
 import com.catnipdev.footballmatch.data.model.team.Team
-import com.hermasyp.quickmovie.base.BaseView
 
 interface DetailContract {
-    interface View : BaseView{
+    interface View : BaseView {
         fun homeTeamLoaded(team : Team?)
         fun awayTeamLoaded(team : Team?)
         fun detailEventLoaded(event: Event?)

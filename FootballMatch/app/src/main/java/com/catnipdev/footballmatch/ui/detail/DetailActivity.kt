@@ -8,12 +8,12 @@ import com.bumptech.glide.Glide
 import com.catnipdev.footballmatch.R
 import com.catnipdev.footballmatch.R.drawable.ic_add_to_favorites
 import com.catnipdev.footballmatch.R.drawable.ic_added_to_favorites
+import com.catnipdev.footballmatch.base.BaseActivity
 import com.catnipdev.footballmatch.data.local.FavoriteEventDao
 import com.catnipdev.footballmatch.data.model.Event
 import com.catnipdev.footballmatch.data.model.team.Team
 import com.catnipdev.footballmatch.utils.DateParser
 import com.catnipdev.footballmatch.utils.Splitter
-import com.hermasyp.quickmovie.base.BaseActivity
 import kotlinx.android.synthetic.main.activity_detail.*
 
 class DetailActivity : BaseActivity(),DetailContract.View {
@@ -88,7 +88,7 @@ class DetailActivity : BaseActivity(),DetailContract.View {
     }
 
     fun setFavoriteMatch() {
-        if (db.getFavoriteByID(e?.idEvent?: ""))
+        if (db.getFavoriteByID(e.idEvent?: ""))
             menuItem?.getItem(0)?.icon = ContextCompat.getDrawable(this, ic_added_to_favorites)
         else
             menuItem?.getItem(0)?.icon = ContextCompat.getDrawable(this, ic_add_to_favorites)

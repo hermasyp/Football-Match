@@ -1,7 +1,7 @@
 package com.catnipdev.footballmatch.ui.main.fragment.lastmatch
 
 import com.catnipdev.footballmatch.data.model.Events
-import com.hermasyp.quickmovie.network.Routes
+import com.catnipdev.footballmatch.network.Routes
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

@@ -1,4 +1,4 @@
-package com.hermasyp.quickmovie.base
+package com.catnipdev.footballmatch.base
 
 import android.support.v7.app.AppCompatActivity
 import android.view.View

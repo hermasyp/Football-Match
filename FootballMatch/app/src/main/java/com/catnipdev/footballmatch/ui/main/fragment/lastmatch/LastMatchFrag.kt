@@ -5,10 +5,10 @@ import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
 import android.view.*
 import com.catnipdev.footballmatch.R
+import com.catnipdev.footballmatch.base.BaseFragment
 import com.catnipdev.footballmatch.data.model.Event
 import com.catnipdev.footballmatch.ui.detail.DetailActivity
 import com.catnipdev.footballmatch.ui.adapter.MatchListAdapter
-import com.hermasyp.quickmovie.base.BaseFragment
 import kotlinx.android.synthetic.main.fragment_last_match.view.*
 import org.jetbrains.anko.support.v4.startActivity
 

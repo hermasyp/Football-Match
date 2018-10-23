@@ -9,10 +9,10 @@ import android.view.View
 import android.view.ViewGroup
 
 import com.catnipdev.footballmatch.R
+import com.catnipdev.footballmatch.base.BaseFragment
 import com.catnipdev.footballmatch.data.model.Event
 import com.catnipdev.footballmatch.ui.detail.DetailActivity
 import com.catnipdev.footballmatch.ui.adapter.MatchListAdapter
-import com.hermasyp.quickmovie.base.BaseFragment
 import kotlinx.android.synthetic.main.fragment_next_match.view.*
 import org.jetbrains.anko.support.v4.startActivity
 

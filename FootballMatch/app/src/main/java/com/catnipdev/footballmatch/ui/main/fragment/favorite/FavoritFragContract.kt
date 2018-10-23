@@ -1,8 +1,8 @@
 package com.catnipdev.footballmatch.ui.main.fragment.favorite
 
 import android.content.Context
+import com.catnipdev.footballmatch.base.BaseView
 import com.catnipdev.footballmatch.data.model.Event
-import com.hermasyp.quickmovie.base.BaseView
 
 /**
 Written with love by Muhammad Hermas Yuda Pamungkas

@@ -1,8 +1,9 @@
-package com.hermasyp.quickmovie.network
+package com.catnipdev.footballmatch.network
 
 import com.catnipdev.footballmatch.BuildConfig
 import com.catnipdev.footballmatch.data.model.Events
 import com.catnipdev.footballmatch.data.model.team.Teams
+import io.reactivex.Observable
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -26,7 +27,7 @@ interface Routes {
     fun getLastEvent() : Call<Events>
 
     @GET("eventsnextleague.php?id=4328")
-    fun getNextEvent() : Call<Events>
+    fun getNextEvent() : Observable<Events>
 
     companion object {
         fun create(): Routes {

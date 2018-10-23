@@ -1,4 +1,4 @@
-package com.hermasyp.quickmovie.base
+package com.catnipdev.footballmatch.base
 
 interface BaseView {
     fun showLoadingProgress()
