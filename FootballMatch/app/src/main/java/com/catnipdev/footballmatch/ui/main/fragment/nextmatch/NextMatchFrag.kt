@@ -13,6 +13,7 @@ import com.catnipdev.footballmatch.base.BaseFragment
 import com.catnipdev.footballmatch.data.model.Event
 import com.catnipdev.footballmatch.ui.detail.DetailActivity
 import com.catnipdev.footballmatch.ui.adapter.MatchListAdapter
+import com.catnipdev.footballmatch.utils.reactive.SchedulerProvider
 import kotlinx.android.synthetic.main.fragment_next_match.view.*
 import org.jetbrains.anko.support.v4.startActivity
 
@@ -36,7 +37,7 @@ class NextMatchFrag : BaseFragment(),NextMatchContract.View {
         v.rvNextMatch.layoutManager = LinearLayoutManager(activity)
         v.rvNextMatch.adapter = null
         initProgressBar(v.pbNextMatch)
-        presenter = NextMatchPresenter(this)
+        presenter = NextMatchPresenter(this,SchedulerProvider())
         return v
     }
 
